@@ -27,7 +27,7 @@ class alumno{
 function opc(){
     console.log("BIENVENIDO(A)")
     console.log("1.- Registrar alumno.\n2.- Consultar datos del alumno.\n3.- Solucionar tarea alumno.\n4.-Eliminar alumno.\n5.- Salir del menu.")
-    let opc = 1;
+    let opc = "";
 }
 
 switch (opc) {
@@ -43,6 +43,11 @@ switch (opc) {
         break;
     case 3: console.log('alumno...')
     break;
+    case 4: console.log('Tarea...')
+    break;
+    case 5: console.log('Muchas gracias...')
+    break;
+
     default: console.log('Error de opción');
     
 }
