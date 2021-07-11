@@ -25,7 +25,7 @@ class alumno{
 }
 
 function opc(){
-    console.log("BIENVENIDO(A)")
+    console.log("BIENVENIDO(A). Por favor, seleccione una opción.")
     console.log("1.- Registrar alumno.\n2.- Consultar datos del alumno.\n3.- Solucionar tarea alumno.\n4.-Eliminar alumno.\n5.- Salir del menu.")
     let opc = "";
 }
