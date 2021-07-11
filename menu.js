@@ -29,7 +29,7 @@ function opc(){
     console.log("1.- Registrar alumno.\n2.- Consultar datos del alumno.\n3.- Solucionar tarea alumno.\n4.-Eliminar alumno.\n5.- Salir del menu.")
     let opc = "";
 }
-
+let alumno= new alumno("Juan",30,"juan@gmail.com","97777778","Resta")
 switch (opc) {
     case 1: 
     /*nombre = prompt('Ingrese nombre del alumno','');
