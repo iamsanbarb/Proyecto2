@@ -6,9 +6,7 @@ class alumno{
         this.celular = celular;
         this.tarea = tarea;
     }
-    consulta(){
-        return console.log("Nombre: " + this.nombre + "\nEdad: " + this.edad + "\nCorreo: " + this.correo + "\nCelular: " + this.celular + "\nTarea: ")
-    }
+    
     SolucionDeTarea(a, b){
         if(this.tarea == "Suma"){
             sol = a + b ;
@@ -34,21 +32,15 @@ function opc(){
 
 switch (opc) {
     case 1: 
-    var n1=0;
-    var n2=2;
-    var r=0;
-    n1=prompt("Dame el primer valor");
-    n2=prompt("Dame el segundo valor");
-    r=n1+n2;
-
     /*nombre = prompt('Ingrese nombre del alumno','');
     edad = prompt('Ingrese edad del alumno');
     correo = prompt('Ingrese correo del alumno');
     celular = prompt('Ingrese celular del alumno');
     tarea = prompt('Ingrese tarea del alumno');*/
     break;
-    case 2: console.log('alumno...')
-    break;
+    case 2:     
+        return console.log("Nombre: " + this.nombre + "\nEdad: " + this.edad + "\nCorreo: " + this.correo + "\nCelular: " + this.celular + "\nTarea: ")
+        break;
     case 3: console.log('alumno...')
     break;
     default: console.log('Error de opción');
